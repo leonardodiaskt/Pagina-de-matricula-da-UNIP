@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://agencia2start.com/wp-content/uploads/2020/10/background-case-unip-min.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid{
+    background-color: #0262c9;
+    height: 70px;
+    margin-bottom: -10px;
+}
+
+.navbar-nav{
+    margin-left: 61%;
+}
+
+.mid-text{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.mid-text h1{
+    font-weight: 900;
+    font-size: 54px;
+    color: #fff;
+}
+
+.mid-text h3{
+    color: #F7E704;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.mid-text hr{
+    width: 850px;
+    margin: auto;
+    opacity: 0.2;
+    color: royalblue;
+}
+
+.mid-text p{
+    color: #fff;
+    margin-top: 15px;
+}
+
+.input-cpf{
+    text-align: center;
+    background-color: #045ebd99;
+    width: 900px;
+    margin: auto;
+    height: 110px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.input-cpf input[type=text]{
+    margin-top: 20px;
+    margin-right: 15px;
+    width: 650px;
+    outline-width: 0;
+    outline-color: royalblue;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.input-cpf input[type=text]::placeholder{
+    padding-left: 10px;
+}
+
+.input-cpf input[type=button]{
+    background-color: #07366a;
+    width: 200px;
+    color: white;
+    opacity: 0.7;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    cursor: default;
+}
+
+.input-cpf input[type=button]:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.container--footer{
+    margin-top: 327px;
+    text-align: center;
+    background-color: #023d71;
+    height: 156px;
+}
+
+.container--footer p{
+    color: #fff
+}
+
+.container--footer hr{
+    opacity: 0.6;
+}
